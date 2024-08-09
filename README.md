@@ -1,2 +1,2 @@
 # IRP5-Shopping-Cart-GROUP2
-ush button. This repository includes the relevant files and packages
+This project involves the development of an intelligent shopping cart designed to autonomously follow a user and stop when obstacles are detected, enhancing both convenience and safety during shopping. The cart leverages a RealSense camera, the YOLO (You Only Look Once) algorithm for person detection, and a ROS-based framework for data processing and cart control. Obstacle avoidance is managed through external bumper sensors triggered by a push button. This repository includes the relevant files and packages
