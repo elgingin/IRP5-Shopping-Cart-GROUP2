@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Launch the push button node -->
+  <node pkg="image_capturing" type="push_button_node.py" name="push_button_node" output="screen" />
+    <param name="push_button/gpio_pin" value="33" />
+    <param name="push_button/pub_topic" value="push_button_state" />
+
+  <!-- Launch the image processor node -->
+  <node pkg="image_capturing" type="image_capturing_node.cpp" name="image_processor" output="screen" />
+
+</launch>
